@@ -1,8 +1,10 @@
 import random
+
 print("Hello!")
 name = input("What is your name? ")
 print("Hello, " + name + ".")
 gender = input("What is your gender? (m(Male) or f(Female)) ")
+gender.lower()
 if gender == "m":
     gender = "male"
 else:
