@@ -18,3 +18,5 @@ if gender == "male":
 else:
     guide_name = f_guide[index]
 print("My name is " + guide_name + ".")
+print("Well," + name + ", I have to show the basics first.")
+print("When you can type something (input), please input asked options or if it is a freestyle one, you can write anything you want by as long sa it corre-sponds to the question.")
