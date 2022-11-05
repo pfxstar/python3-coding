@@ -12,3 +12,5 @@ print(a5)
 
 a6 = a4 + a1
 print(a6)
+
+str1 = "wahaha"
