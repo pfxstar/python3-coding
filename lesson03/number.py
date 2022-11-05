@@ -6,3 +6,5 @@ a2 = "25"
 
 a4 = a1 + int(a2)
 print(a4) # ab: 60
+
+str1 = "wahaha"
