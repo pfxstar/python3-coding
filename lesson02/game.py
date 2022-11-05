@@ -27,5 +27,8 @@ hobby = input("What is you hobby? ")
 fav_drink = input("What is your favorite drink? ")
 fav_game = input("What is your favorite game? ")
 print("Okay! Let's start. I'll introduce you to your home. ")
-pet = "No"
+pet = "no"
 print("Hm... This place really needs a glow-up. To the shop!")
+print("Loading...")
+pet = input("Do you want a pet?(yes or no)")
+pet.lower()
