@@ -9,3 +9,6 @@ print(a4) # ab: 60
 
 a5 = str(a1) + a2
 print(a5)
+
+a6 = a4 + a1
+print(a6)
