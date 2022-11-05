@@ -30,5 +30,11 @@ print("Okay! Let's start. I'll introduce you to your home. ")
 pet = "no"
 print("Hm... This place really needs a glow-up. To the shop!")
 print("Loading...")
-pet = input("Do you want a pet?(yes or no)")
+pet = input("Do you want a pet? (yes or no) ")
 pet.lower()
+if pet == "yes":
+    pet_type = input("What type of pet do you want?")
+    print("Let's add that...")
+else:
+    print("Okay!")
+print("Hm... I'm really hungry. Why don't we go eat " + fav_food + "?")
