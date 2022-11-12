@@ -1,6 +1,13 @@
 import random
 
-print("Hello!")
+print("*    *".center(10));
+print(" * * " * 2)
+print("*   *" * 2)
+print(" *" + " " * 6 + "* ")
+print("  *  " * 2)
+print("   * " + " *  ")
+print("    *" + "*   ")
+
 name = input("What is your name? ")
 print("Hello, " + name + ".")
 gender = input("What is your gender? (m(Male) or f(Female)) ")
