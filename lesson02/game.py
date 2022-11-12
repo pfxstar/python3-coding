@@ -12,7 +12,7 @@ else:
 f_guide = ["Sarah", "Ellie", "Ayla", "Eileen", "Helen"]
 m_guide = ["Chris", "Ryan", "Cameron", "Ethan", "Gordon"]
 guide_name = "name"
-index = random.randint(0, 4)
+index = random.randint(0, 5)
 if gender == "male":
     guide_name = m_guide[index]
 else:
@@ -43,3 +43,4 @@ print("Loading...")
 print("Okay. Let's dig in!")
 print("Eating...")
 print("Hm... I really bored. Let's play a game! It's called 'Who am I?' ")
+whoami1 = input("I am small, clear and I am always different. Who am I?")
