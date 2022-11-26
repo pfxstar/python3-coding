@@ -55,7 +55,7 @@ else:
     print("Okay!")
 print("Hm... I'm really hungry. Why don't we go eat " + fav_food + "?")
 print("Loading...")
-print("Okay. Let's dig in!")
+print("This is really good!")
 print("Eating...")
 print("Hm... I really bored. Let's play a game! It's called 'Who am I?' ")
 whoami1 = input("I am small, clear and I am always different. Who am I?")
