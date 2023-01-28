@@ -29,3 +29,19 @@ print(f.islower())
 g = "01928374019823741726357832947832647819374"
 print(g.isupper())
 print(g.islower())
+
+# Split a string to a list
+h = "I am very smartie sad"
+arr = h.split(" ")
+print(arr)
+
+# Join a list to a string
+j = ["dog", "cat", "bird", "lizard", "giraffe", "zebra", "lion", "cheetah", "leopard", "wolf", "parakeet", "parrot", "beetle", "bobcat", "chicken", "pig", "cow", "sheep"]
+k = "-".join(j)
+print(k)
+l = " => ".join(j)
+print(l)
+
+countries = ["Canada", "China", "Cuba"]
+print(" What countries have you ever been to? ")
+print(" --> ".join(countries))
