@@ -1,0 +1,1 @@
+# Player can jump 1 or 2 steps. 2 players take turns. total n steps
