@@ -1,6 +1,21 @@
 import random
 
-print("Hello!")
+"""
+print("*    *".center(10));
+print(" * * " * 2)
+print("*   *" * 2)
+print(" *" + " " * 6 + "* ")
+print("  *  " * 2)
+print("   * " + " *  ")
+print("    *" + "*   ")
+"""
+print("   ❤ ❤ ❤   ❤ ❤ ❤")
+print(" ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤")
+print("❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤")
+print(" ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤ ❤")
+print("   ❤ ❤ ❤ ❤ ❤ ❤ ❤")
+print("     ❤ ❤ ❤ ❤ ❤")
+print("        ❤ ❤")
 name = input("What is your name? ")
 print("Hello, " + name + ".")
 gender = input("What is your gender? (m(Male) or f(Female)) ")
@@ -40,7 +55,7 @@ else:
     print("Okay!")
 print("Hm... I'm really hungry. Why don't we go eat " + fav_food + "?")
 print("Loading...")
-print("Okay. Let's dig in!")
+print("This is really good!")
 print("Eating...")
 print("Hm... I really bored. Let's play a game! It's called 'Who am I?' ")
 whoami1 = input("I am small, clear and I am always different. Who am I?")
