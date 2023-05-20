@@ -9,8 +9,6 @@ SCREEN_WIDTH = 1280
 SCREEN_HEIGHT = 720
 
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-screen.fill((143, 212, 255), (0, 0, 1280, 360))
-screen.fill((112, 69, 0), (0, 360, 1280, 360))
 
 player = pygame.image.load("../assets/sisi.png")
 game_font = pygame.font.Font("../assets/SunnyspellsRegular-MV9ze.otf")
@@ -49,6 +47,9 @@ while True:
             current_cloud = Cloud(cloud, 1380, current_cloud_y)
             cloud_group.add(current_cloud)
 
+    screen.fill((143, 212, 255), (0, 0, 1280, 360))
+    screen.fill((112, 69, 0), (0, 360, 1280, 360))
+    
     cloud_group.update()
     cloud_group.draw(screen)
 
