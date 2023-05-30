@@ -15,8 +15,8 @@ PLAYER_GROUND_DIFF = 40
 PLAYER_GROUND_DIFF = 40
 OSTACLE_WIDTH = 50
 OSTACLE_HEIGHT = 50
-BIRD_WIDTH = 84
-BIRD_HEIGHT = 62
+BIRD_WIDTH = 50
+BIRD_HEIGHT = 50
 CLOUD_WIDTH = 200
 CLOUD_HEIGHT = 80
 CLOUD_EVENT_INTERVAL = 3000
@@ -195,9 +195,9 @@ pygame.time.set_timer(CLOUD_EVENT, CLOUD_EVENT_INTERVAL)
 def end_game():
     global player_score, game_speed
     game_over_text = game_font.render("Game Over!", True, "black")
-    game_over_rect = game_over_text.get_rect(center=(640, 300))
+    game_over_rect = game_over_text.get_rect(center=(SCREEN_WIDTH / 2, SCREEN_HALF - 60))
     score_text = game_font.render(f"Score: {int(player_score)}", True, "black")
-    score_rect = score_text.get_rect(center=(640, SCREEN_HALF - GROUND_HEIGHT))
+    score_rect = score_text.get_rect(center=(SCREEN_WIDTH / 2, SCREEN_HALF))
     screen.blit(game_over_text, game_over_rect)
     screen.blit(score_text, score_rect)
     game_speed = GAME_SPEED_INIT
