@@ -8,7 +8,7 @@ def bubble_sort(n):
     return n
 
 #ns = Number String
-ns = input("Please input a string with numbers, split by commas: ")
+ns = input("Please input a string of numbers, split by commas: ")
 n0 = [int(n) for n in ns.split(",")]
 n1 = bubble_sort(n0)
 print(n1)
