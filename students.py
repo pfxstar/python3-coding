@@ -1,5 +1,7 @@
 from seal import fibonacci, sorting
 from seal.math import calculus
+import random
+import math
 
 my_class = {
     1:{
@@ -95,8 +97,40 @@ my_class = {
 }
 
 # Testing modules
-print(fibonacci.better_fibonnaci(6))
+''' print(fibonacci.better_fibonnaci(6))
 print(fibonacci.fibonnaci(6))
 print(sorting.bubble_sort([6, 2, 1, 3, 4, 5]))
 print(dir())
-print(calculus.hello())
+print(calculus.hello()) '''
+
+# Python Random Module
+my_list = ['a', 'b', 'c', 'd', 'e', 'f']
+
+print(random.randrange(10, 20))
+print(random.randrange(1, 2))
+
+print(random.choice(my_class))
+
+random.shuffle(my_list)
+print(my_list)
+
+print(random.random())
+
+random.seed(10)
+print(random.random())
+print(random.random())
+
+# Python Mathematics
+print(math.pi)
+
+print(math.ceil(1.2))
+print(math.ceil(2.5))
+print(math.ceil(-5.3))
+print(math.ceil(10.0))
+
+print(math.floor(10.0))
+print(math.floor(254238542452.245659))
+print(math.floor(-1.3))
+
+print(math.fabs(134))
+print(math.fabs(-134))
