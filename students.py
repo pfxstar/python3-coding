@@ -1,3 +1,6 @@
+from seal import fibonacci, sorting
+from seal.math import calculus
+
 my_class = {
     1:{
         'first_name': 'Aahana', 
@@ -90,3 +93,10 @@ my_class = {
         'gender': 'f'
     },
 }
+
+# Testing modules
+print(fibonacci.better_fibonnaci(6))
+print(fibonacci.fibonnaci(6))
+print(sorting.bubble_sort([6, 2, 1, 3, 4, 5]))
+print(dir())
+print(calculus.hello())
