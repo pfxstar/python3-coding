@@ -34,7 +34,7 @@ else:
     guide_name = f_guide[index]
 print("My name is " + guide_name + ".")
 print("Well, " + name + ", I have to show the basics first.")
-print("When you can type something (input), please input asked options or if it is a freestyle one, you can write anything you want by as long sa it corre-sponds to the question.")
+print("When you can type something (input), please input asked options or if it is a freestyle one, you can write anything you want by as long as it corresponds to the question.")
 print("Now I'll quiz you freestyle questions to know your preference.")
 fav_animal = input("What is your favorite animal? ")
 fav_food = input("What is your favorite food? ")
@@ -58,4 +58,8 @@ print("Loading...")
 print("This is really good!")
 print("Eating...")
 print("Hm... I really bored. Let's play a game! It's called 'Who am I?' ")
-whoami1 = input("I am small, clear and I am always different. Who am I?")
+whoami1 = input("I am small, clear and I am always different. Who am I? ")
+
+with open("game_data.txt", "w") as game_file:
+    game_file.write("Name: " + name + "\n")
+    game_file.write("Gender: " + gender + "\n" + "Fav Animal: " + fav_animal + "\n" + "Fav Food: " + fav_food)
