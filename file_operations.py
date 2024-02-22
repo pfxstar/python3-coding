@@ -17,10 +17,17 @@ finally:
 '''
 
 with open("C:/Users/abell/Downloads/MyStoryBook.txt", "r+") as file2:
-    content2 = file2.read()
-    file2.write(" The character was called Lily.")
-    content3 = file2.read()
-    print(content2)
-    print(content3)
+    # content2 = file2.read()
+    # file2.write(" The character was called Lily.")
+    content3 = file2.readline()
+    # print(content2)
+    # print(content3)
 
-    
+with open("./students.txt", "r+") as file2:
+    # content2 = file2.read()
+    # file2.write(" The character was called Lily.")
+    content3 = file2.readline()
+    content4 = file2.readline()
+    # print(content2)
+    print(content3)
+    print(content4)
